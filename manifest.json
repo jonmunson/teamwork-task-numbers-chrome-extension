@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Teamwork Task Numbers",
+    "description": "Extension that adds task numbers to tasks in Teamwork Projects.",
+    "version": "1.0",
+    "homepage_url": "https://github.com/jonmunson/teamwork-task-numbers-chrome-extension",
+    "author": "Jon Munson",
+
+    "content_scripts": [
+    {
+        "matches": ["https://*.teamwork.com/*"],
+        "js": [
+            "jquery.min.js",
+            "contentScript.js"
+        ]
+
+    }
+    ],
+
+    "page_action": {
+        "default_icon": "task-number-icon.png"
+    }
+}
