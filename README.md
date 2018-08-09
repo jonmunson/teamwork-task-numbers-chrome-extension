@@ -1,4 +1,4 @@
-# ![Icon](task-number-icon.png | width=45) Teamwork Task Numbers
+# <img src="task-number-icon.png" width="45" align="left"> Teamwork Task Numbers
 
 [link-cws]: https://chrome.google.com/webstore/detail/teamwork-task-numbers/oknjgpmiehhpmgekpclgkceodoaaebbi "Version published on Chrome Web Store"
 
